@@ -17,7 +17,7 @@ crate-type = ["dylib", "rlib"]
 [dependencies]
 wasmer = "2.0"
 wasmer-wasi = "2.0"
-rutie = "0.8"
+rutie = { path = "../rutie", version = "0.8" }
 rutie-derive = { path = "../rutie-derive", version = "0.1.0" }
 lazy_static = "1.4"
 wat = "1.0"
